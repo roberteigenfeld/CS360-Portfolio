@@ -1,1 +1,7 @@
 # CS360-Portfolio
+
+This app was developed to help users store and view items with details, making it easier to organize and access personal data. The goal was to create a simple and effective way to manage information while keeping the interface clean and user-friendly. To support this, the app included screens for adding new items, listing all saved items, and viewing individual item details. I used RecyclerView to display the list and an SQLite database to store the data. The UI was designed with users in mind by making sure navigation was easy, buttons were clearly labeled, and the layout was simple to understand.
+
+When coding, I planned each step by first mapping out the data structure, setting up the database, and connecting it to the UI. I broke the work into smaller parts and tested each feature as I built it. This approach helped me avoid major issues later on. Testing was done using the emulator and checking edge cases, like empty inputs, to make sure everything worked correctly. This step showed me where bugs could happen and how important it is to test early and often.
+
+One challenge I faced was figuring out how to make the RecyclerView update after adding a new item. I had to research how to notify the adapter of changes and refresh the list properly. This pushed me to better understand how data flows through the app. Overall, I was proud of how I implemented the RecyclerView with live data from SQLite. It showed I could connect UI elements with a working backend, which is a key part of Android development.
